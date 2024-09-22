@@ -1,8 +1,8 @@
 :root {
-  --primary: #ffdbc4;
+  --primary: #f1f1f1;
   --secondary: #6fb98f;
   --accent: #68f98e;
-  --light: #ffdbc4;
+  --light: #f1f1f1;
   --danger: #f02828;
   --input-border: 1px solid rgba(0, 0, 0, 0.1);
   --border: 1px solid #ffdbc4;
@@ -194,5 +194,30 @@ h1 {
 @media (max-width: 768px) {
   .gridCalc {
     padding: 1rem;
+  }
+}
+
+/*---Ipad---*/
+@media (max-width: 768px) {
+  .gridCalc {
+    padding: 1rem;
+  }
+}
+
+/*---Mobile---*/
+@media (max-width: 480px) {
+  header {
+    height: 10vh;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .input {
+    font-size: 1.5rem;
+  }
+  .gridCalc {
+    padding: 0.5rem;
+    width: 100vw;
+    height: 75vh;
   }
 }
